@@ -1,42 +1,22 @@
 import './style.css';
-const scoreList = document.querySelector('.score-list');
-const SAVE_LOC = 'scores.list';
-const allScores = JSON.parse(localStorage.getItem(SAVE_LOC)) || [];
-const saveScore = () => {
-    localStorage.setItem(SAVE_LOC, JSON.stringify(allScores));
-}
-const addScore = () => {
-    const scoreInput = document.querySelector('.score');
-    const nameInput = document.querySelector('.name');
-    let score = scoreInput.value;
-    let name = nameInput.value;
-    
-    if (score === '' || name === '') {
-        alert('Please fill in both fields');
-        return;
-    } else {
-        score = parseInt(score);
-        if (isNaN(score)) {
-            alert('Please enter a number');
-            return;
-        }
-        else {
-            allScores.push({name, score});
-            saveScore();
-            const newScore = document.createElement('li');
-            newScore.innerHTML = `${name}: ${score}`;
-            scoreList.appendChild(newScore);
-            scoreInput.value = '';
-            nameInput.value = '';
-            scoreList.appendChild(newScore);
-        }
-    }
-}
+import { allScores } from './modules/memory';
+import addScore from './modules/add-score';
 
+const scoreList = document.querySelector('.score-list');
+
+
+const renderScores = () => {
+    allScores.forEach(score => {
+        const newScore = document.createElement('li');
+        newScore.innerHTML = `${score.name}: ${score.score}`;
+        scoreList.appendChild(newScore);
+    });
+}
 
 const addScoreBtn = document.querySelector('.submit');
 addScoreBtn.addEventListener('click', (e) => {
     e.preventDefault();
     addScore();
-
 });
+
+renderScores();
