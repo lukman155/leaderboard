@@ -1,22 +1,18 @@
 import './style.css';
-import { allScores } from './modules/memory';
+import renderScores from './modules/render';
 import addScore from './modules/add-score';
-
-const scoreList = document.querySelector('.score-list');
-
-
-const renderScores = () => {
-    allScores.forEach(score => {
-        const newScore = document.createElement('li');
-        newScore.innerHTML = `${score.name}: ${score.score}`;
-        scoreList.appendChild(newScore);
-    });
-}
 
 const addScoreBtn = document.querySelector('.submit');
 addScoreBtn.addEventListener('click', (e) => {
     e.preventDefault();
     addScore();
 });
+
+const refreshBtn = document.querySelector('.refresh');
+refreshBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    window.location.reload();
+});
+
 
 renderScores();

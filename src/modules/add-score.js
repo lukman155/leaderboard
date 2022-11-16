@@ -1,4 +1,5 @@
-import { saveScore } from "./memory";
+import { saveScore, allScores } from "./memory";
+import { scoreList } from "./elements";
 
 const addScore = () => {
     const scoreInput = document.querySelector('.score');
