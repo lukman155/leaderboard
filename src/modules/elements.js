@@ -1,3 +1,3 @@
 const scoreList = document.querySelector('.score-list');
 
-export { scoreList };
+export default scoreList;
