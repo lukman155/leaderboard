@@ -1,14 +1,5 @@
 import './style.css';
 
-// import renderScores from './modules/render.js';
-// import addScore from './modules/add-score.js';
-
-// const addScoreBtn = document.querySelector('.submit');
-// addScoreBtn.addEventListener('click', (e) => {
-//   e.preventDefault();
-//   addScore();
-// });
-
 const gameId = 'XWZaQZBPVullch0IYVvl';
 const list = document.querySelector('.score-list');
 
