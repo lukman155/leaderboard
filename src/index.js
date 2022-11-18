@@ -19,7 +19,7 @@ const render = (data) => {
   list.appendChild(li);
 };
 
-async function postData(data) {
+const postData = async (data) => {
   const response = await fetch(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameId}/scores`, {
     method: 'POST',
     headers: {
@@ -28,14 +28,14 @@ async function postData(data) {
     body: JSON.stringify(data),
   });
   return response.json();
-}
+};
 
-async function fetchData() {
+const fetchData = async () => {
   const response = await fetch(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameId}/scores`, {
     method: 'GET',
   });
   return response.json();
-}
+};
 
 document.querySelector('form').onsubmit = (e) => {
   e.preventDefault();
