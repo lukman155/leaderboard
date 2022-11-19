@@ -70,3 +70,7 @@ li {
   justify-content: center;
   gap: 2rem;
 }
+
+.submit.button {
+  align-self: flex-end;
+}
