@@ -1,69 +1,142 @@
-# leaderboard
- 
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# To Do List App
+<div align="center">
 
-![](./hello.png)
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-## Project Details
+  <h3><b>LeaderBoard README</b></h3>
 
-> This is a project created using HTML, CSS and JavaScript to show my knowledge of them.
+</div>
 
-### Live Demo
+<!-- TABLE OF CONTENTS -->
 
-[Live Leaderboard Link](https://lukman155.github.io/leaderboard/dist/)
+# 📗 Table of Contents
 
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-## Built With
+<!-- PROJECT DESCRIPTION -->
 
-- HTML
-- CSS
-- Javascript
+# 📖 [Leaderboard] <a name="about-project"></a>
 
-## Additional Tools
+> Describe your project in 1 or 2 sentences.
 
-- WebHint
-- Stylelint
-- Node Packet Manager
-- Github Pages
-- webpack
+**[Leaderboard]** is a Web application that is serviced by an API that allows storage and retrieval of data in text format.
 
+## 🛠 Built With <a name="built-with"></a>
 
-## Getting Started
+### Tech Stack <a name="tech-stack"></a>
 
-set up a new repository and prepare it for development using best practices (e.g. linters), 
-webpack and gitflow.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **[Storage of data on a remote file server]**
+- **[Retrieval of data from the remote server]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link of Leaderboard App](https://lukman155.github.io/leaderboard/dist/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-- HTML and CSS and Basic JavaScript.
-- Git installation
-- A text editor 
-- A terminal
-- A web browser to view output
-- An IDE e.g Visual studio code
+In order to run this project you need:
+
+
+```
+ To install node
+```
+
 ### Setup
 
-- Clone this repository or download the Zip folder:
+Clone this repository to your desired folder:
 
 
-for https:
-```
-    git clone https://github.com/lukman155/leaderboard.git
-```
-for ssh:
-```
-    git clone git@github.com:lukman155/leaderboard.git
+  git clone https://github.com/lukman155/leaderboard.git
 
-```
+
+### Install
+
+Install this project with:
+
+
+  cd my-project
+  npm install
+--->
 
 ### Usage
 
-- After Cloning this repo to your local machine
-- Open the `./dist/index.html` in your browser
+To run the project, execute the following command:
 
-## Authors
+```sh
+  npm start
+```
+
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+> Mention all of the collaborators of this project.
 
 👤 **Lukman Abdulkarim**
 
@@ -71,23 +144,52 @@ for ssh:
 - Twitter: [@LukmanAbdulka18](https://twitter.com/LukmanAbdulka18)
 - LinkedIn: [Lukman Abdulkarim](https://linkedin.com/in/lukmanbaba)
 
-## 🤝 Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[Create interactive elements]**
+- [ ] **[Use an animated background]**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/lukman155/@@@@/issues).
+Feel free to check the [issues page](https://github.com/lukman155/leaderboard/issues).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give two ⭐️'s if you like this project!
+<!-- SUPPORT -->
 
-## Acknowledgments
+## ⭐️ Show your support <a name="support"></a>
 
-- Thanks to the Microverse team for the great curriculum.
-- Thanks to the Code Reviewer(s) for the insightful feedback.
-- A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
-- Hat tip to anyone whose code was used.
+If you like this project, please drop a star ⭐️ or two⭐️⭐️...cheers
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This project is [MIT](./MIT.md) licensed.
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank my coding partners and the coding community. y'all are truly the best.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
