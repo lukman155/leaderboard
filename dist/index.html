@@ -4,23 +4,138 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LeaderBoard</title>
+    <link href="https://fonts.cdnfonts.com/css/sora" rel="stylesheet">
 <script defer src="main.js"></script></head>
 <body>
+  <section class="blob-container">
+    <div class="blob">
+      <svg viewBox="0 0 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+        <g transform="translate(143.0176544189453, -4.490333557128906)">
+          <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" style="stop-color: #8744D0;"></stop>
+              <stop offset="100%" style="stop-color: #D08744;"></stop>
+            </linearGradient>
+          </defs>
+          <path fill="url(#gradient)">
+            <animate attributeName="d"
+              dur="50000ms"
+              repeatCount="indefinite"
+              
+              values="M439.5,305.5Q403,361,355.5,394.5Q308,428,256,410.5Q204,393,133,389.5Q62,386,50,318Q38,250,43.5,177Q49,104,122,92.5Q195,81,260,50Q325,19,384.5,64Q444,109,460,179.5Q476,250,439.5,305.5Z;
+              M426.5,308Q409,366,368,426Q327,486,257.5,464Q188,442,134.5,407.5Q81,373,78,311.5Q75,250,67,180.5Q59,111,122.5,81.5Q186,52,253,42.5Q320,33,354,91.5Q388,150,416,200Q444,250,426.5,308Z;
+              M431.5,322.5Q449,395,385,432Q321,469,253,459.5Q185,450,131,413Q77,376,58.5,313Q40,250,44.5,177Q49,104,114.5,68.5Q180,33,243,55.5Q306,78,377,92Q448,106,431,178Q414,250,431.5,322.5Z;
+              M416,300Q387,350,348.5,391.5Q310,433,244.5,450.5Q179,468,129.5,421Q80,374,89,312Q98,250,90,189Q82,128,134,90Q186,52,244.5,70Q303,88,342,121.5Q381,155,413,202.5Q445,250,416,300Z;
+              M441,317Q434,384,373,412.5Q312,441,257,420Q202,399,127,396.5Q52,394,28,322Q4,250,62,203Q120,156,154.5,108.5Q189,61,251.5,56.5Q314,52,355.5,98Q397,144,422.5,197Q448,250,441,317Z;
+              M439.5,305.5Q403,361,355.5,394.5Q308,428,256,410.5Q204,393,133,389.5Q62,386,50,318Q38,250,43.5,177Q49,104,122,92.5Q195,81,260,50Q325,19,384.5,64Q444,109,460,179.5Q476,250,439.5,305.5Z
+              ">
+              <!-- first last value are the same to complete loop -->
+            </animate>
+          </path>
+        </g>
+      </svg>
+    </div>
+
+    <div class="blob">
+      <svg viewBox="0 0 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+        <g transform="translate(143.0176544189453, -4.490333557128906)">
+          <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" style="stop-color: #8744D0;"></stop>
+              <stop offset="100%" style="stop-color: #D08744;"></stop>
+            </linearGradient>
+          </defs>
+          <path fill="url(#gradient)">
+            <animate attributeName="d"
+              dur="50000ms"
+              repeatCount="indefinite"
+              
+              values="M439.5,305.5Q403,361,355.5,394.5Q308,428,256,410.5Q204,393,133,389.5Q62,386,50,318Q38,250,43.5,177Q49,104,122,92.5Q195,81,260,50Q325,19,384.5,64Q444,109,460,179.5Q476,250,439.5,305.5Z;
+              M426.5,308Q409,366,368,426Q327,486,257.5,464Q188,442,134.5,407.5Q81,373,78,311.5Q75,250,67,180.5Q59,111,122.5,81.5Q186,52,253,42.5Q320,33,354,91.5Q388,150,416,200Q444,250,426.5,308Z;
+              M431.5,322.5Q449,395,385,432Q321,469,253,459.5Q185,450,131,413Q77,376,58.5,313Q40,250,44.5,177Q49,104,114.5,68.5Q180,33,243,55.5Q306,78,377,92Q448,106,431,178Q414,250,431.5,322.5Z;
+              M416,300Q387,350,348.5,391.5Q310,433,244.5,450.5Q179,468,129.5,421Q80,374,89,312Q98,250,90,189Q82,128,134,90Q186,52,244.5,70Q303,88,342,121.5Q381,155,413,202.5Q445,250,416,300Z;
+              M441,317Q434,384,373,412.5Q312,441,257,420Q202,399,127,396.5Q52,394,28,322Q4,250,62,203Q120,156,154.5,108.5Q189,61,251.5,56.5Q314,52,355.5,98Q397,144,422.5,197Q448,250,441,317Z;
+              M439.5,305.5Q403,361,355.5,394.5Q308,428,256,410.5Q204,393,133,389.5Q62,386,50,318Q38,250,43.5,177Q49,104,122,92.5Q195,81,260,50Q325,19,384.5,64Q444,109,460,179.5Q476,250,439.5,305.5Z
+              ">
+              <!-- first last value are the same to complete loop -->
+            </animate>
+          </path>
+        </g>
+      </svg>
+    </div>
+    
+    <div class="blob one">
+      <svg viewBox="0 0 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+        <g transform="translate(143.0176544189453, -4.490333557128906)">
+          <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" style="stop-color: #8744D0;"></stop>
+              <stop offset="100%" style="stop-color: #D08744;"></stop>
+            </linearGradient>
+          </defs>
+          <path fill="url(#gradient)">
+            <animate attributeName="d"
+              dur="50000ms"
+              repeatCount="indefinite"
+              
+              values="M439.5,305.5Q403,361,355.5,394.5Q308,428,256,410.5Q204,393,133,389.5Q62,386,50,318Q38,250,43.5,177Q49,104,122,92.5Q195,81,260,50Q325,19,384.5,64Q444,109,460,179.5Q476,250,439.5,305.5Z;
+              M426.5,308Q409,366,368,426Q327,486,257.5,464Q188,442,134.5,407.5Q81,373,78,311.5Q75,250,67,180.5Q59,111,122.5,81.5Q186,52,253,42.5Q320,33,354,91.5Q388,150,416,200Q444,250,426.5,308Z;
+              M431.5,322.5Q449,395,385,432Q321,469,253,459.5Q185,450,131,413Q77,376,58.5,313Q40,250,44.5,177Q49,104,114.5,68.5Q180,33,243,55.5Q306,78,377,92Q448,106,431,178Q414,250,431.5,322.5Z;
+              M416,300Q387,350,348.5,391.5Q310,433,244.5,450.5Q179,468,129.5,421Q80,374,89,312Q98,250,90,189Q82,128,134,90Q186,52,244.5,70Q303,88,342,121.5Q381,155,413,202.5Q445,250,416,300Z;
+              M441,317Q434,384,373,412.5Q312,441,257,420Q202,399,127,396.5Q52,394,28,322Q4,250,62,203Q120,156,154.5,108.5Q189,61,251.5,56.5Q314,52,355.5,98Q397,144,422.5,197Q448,250,441,317Z;
+              M439.5,305.5Q403,361,355.5,394.5Q308,428,256,410.5Q204,393,133,389.5Q62,386,50,318Q38,250,43.5,177Q49,104,122,92.5Q195,81,260,50Q325,19,384.5,64Q444,109,460,179.5Q476,250,439.5,305.5Z
+              ">
+              <!-- first last value are the same to complete loop -->
+            </animate>
+          </path>
+        </g>
+      </svg>
+    </div>
+
+    <div class="blob one">
+      <svg viewBox="0 0 800 500" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+        <g transform="translate(143.0176544189453, -4.490333557128906)">
+          <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" style="stop-color: #8744D0;"></stop>
+              <stop offset="100%" style="stop-color: #D08744;"></stop>
+            </linearGradient>
+          </defs>
+          <path fill="url(#gradient)">
+            <animate attributeName="d"
+              dur="50000ms"
+              repeatCount="indefinite"
+              
+              values="M439.5,305.5Q403,361,355.5,394.5Q308,428,256,410.5Q204,393,133,389.5Q62,386,50,318Q38,250,43.5,177Q49,104,122,92.5Q195,81,260,50Q325,19,384.5,64Q444,109,460,179.5Q476,250,439.5,305.5Z;
+              M426.5,308Q409,366,368,426Q327,486,257.5,464Q188,442,134.5,407.5Q81,373,78,311.5Q75,250,67,180.5Q59,111,122.5,81.5Q186,52,253,42.5Q320,33,354,91.5Q388,150,416,200Q444,250,426.5,308Z;
+              M431.5,322.5Q449,395,385,432Q321,469,253,459.5Q185,450,131,413Q77,376,58.5,313Q40,250,44.5,177Q49,104,114.5,68.5Q180,33,243,55.5Q306,78,377,92Q448,106,431,178Q414,250,431.5,322.5Z;
+              M416,300Q387,350,348.5,391.5Q310,433,244.5,450.5Q179,468,129.5,421Q80,374,89,312Q98,250,90,189Q82,128,134,90Q186,52,244.5,70Q303,88,342,121.5Q381,155,413,202.5Q445,250,416,300Z;
+              M441,317Q434,384,373,412.5Q312,441,257,420Q202,399,127,396.5Q52,394,28,322Q4,250,62,203Q120,156,154.5,108.5Q189,61,251.5,56.5Q314,52,355.5,98Q397,144,422.5,197Q448,250,441,317Z;
+              M439.5,305.5Q403,361,355.5,394.5Q308,428,256,410.5Q204,393,133,389.5Q62,386,50,318Q38,250,43.5,177Q49,104,122,92.5Q195,81,260,50Q325,19,384.5,64Q444,109,460,179.5Q476,250,439.5,305.5Z
+              ">
+              <!-- first last value are the same to complete loop -->
+            </animate>
+          </path>
+        </g>
+      </svg>
+    </div>
+  </section>
     
   <main class="container">
     <h1>Leaderboard</h1>
+    <div class="minicon">
     <div class="score-container">
-      <h2>Recent scores</h2><button class="refresh">Refresh</button>
+      <div class="highref"><h2>Recent scores</h2><button class="refresh button">Refresh</button></div>
       <ul class="score-list">
       </ul>
     </div>
-    <div class="add-score-container">
-      <h2>Add your score</h2>
-      <form>
-        <input class="name" type="text" placeholder="Your name" required/>
-        <input class="score" type="text" placeholder="Your score" required/>
-        <input class="submit" type="submit" value="Submit" />
+      <form action="" class="add-score-container">
+        <h2>Add your score</h2>
+        <input class="name" type="text" placeholder="Your name" required name="name">
+        <input class="score" type="text" placeholder="Your score" required name="score">
+        <input class="submit button" type="submit" value="Submit" />
       </form>
+  </div>
   </main>
 </body>
 </html>

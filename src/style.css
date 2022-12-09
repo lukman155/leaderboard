@@ -1,7 +1,45 @@
 body {
-  background-color: bisque;
+  background-color: #000;
+  color: #44d087;
   font-size: 1rem;
   font-family: "Sora", sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.blob-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blob {
+  position: absolute;
+  width: 40rem;
+  height: 40rem;
+  z-index: -1;
+  filter: blur(0.5rem);
+  transform: scale(1.6);
+  overflow: hidden;
+}
+
+.blob:nth-child(2) {
+  filter: blur(3rem);
+}
+
+.one {
+  top: 80vh;
+}
+
+@media screen and (min-width: 768px) {
+  .blob {
+    position: absolute;
+    width: 100vw;
+    height: 40rem;
+    z-index: -1;
+    filter: blur(0.5rem);
+  }
 }
 
 .minicon {
@@ -9,6 +47,7 @@ body {
   display: flex;
   gap: 4rem;
   justify-content: center;
+  min-height: 25rem;
 }
 
 h1 {
@@ -16,7 +55,7 @@ h1 {
   font-weight: 600;
   color: #000;
   margin: 0;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .score-container {
@@ -32,12 +71,11 @@ h1 {
   gap: 1rem;
   font-size: 1.5rem;
   font-weight: 600;
-  color: #000;
 }
 
 .button,
 input {
-  border: 0.1rem #000 solid;
+  border: 0.1rem #44d087 solid;
   border-radius: 0.5rem;
   padding: 0.4rem;
   margin: 0;
@@ -47,7 +85,7 @@ input {
 }
 
 .score-list {
-  border: 0.1rem #000 solid;
+  border: 0.1rem #44d087 solid;
   padding: 0;
   list-style: none;
   margin: 0;
@@ -59,7 +97,7 @@ li {
 }
 
 .score-list li:nth-child(odd) {
-  background-color: #000;
+  background-color: #44d087;
   color: #fff;
 }
 
