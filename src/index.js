@@ -22,9 +22,7 @@ const postData = async (data) => {
 };
 
 const fetchData = async () => {
-  const response = await fetch(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameId}/scores`, {
-    method: 'GET',
-  });
+  const response = await fetch(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameId}/scores`);
   return response.json();
 };
 
