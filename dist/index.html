@@ -4,23 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LeaderBoard</title>
+    <link href="https://fonts.cdnfonts.com/css/sora" rel="stylesheet">
 <script defer src="main.js"></script></head>
 <body>
     
   <main class="container">
     <h1>Leaderboard</h1>
+    <div class="minicon">
     <div class="score-container">
-      <h2>Recent scores</h2><button class="refresh">Refresh</button>
+      <div class="highref"><h2>Recent scores</h2><button class="refresh button">Refresh</button></div>
       <ul class="score-list">
       </ul>
     </div>
-    <div class="add-score-container">
-      <h2>Add your score</h2>
-      <form>
-        <input class="name" type="text" placeholder="Your name" required/>
-        <input class="score" type="text" placeholder="Your score" required/>
-        <input class="submit" type="submit" value="Submit" />
+      <form action="" class="add-score-container">
+        <h2>Add your score</h2>
+        <input class="name" type="text" placeholder="Your name" required name="name">
+        <input class="score" type="text" placeholder="Your score" required name="score">
+        <input class="submit button" type="submit" value="Submit" />
       </form>
+  </div>
   </main>
 </body>
 </html>
